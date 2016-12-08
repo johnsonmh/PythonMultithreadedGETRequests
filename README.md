@@ -35,3 +35,5 @@ If you run the program from the command line, using ```python batch_get.py```, i
 Multithreaded URL GETs took 3.252121 seconds, to get 36 web pages.
 Iterative URL GETs took 20.445654 seconds, to get 36 web pages.
 ```
+
+GitHub Link: https://github.com/johnsonmh/PythonMultithreadedGETRequests
