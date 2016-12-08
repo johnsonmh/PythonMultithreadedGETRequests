@@ -52,7 +52,7 @@ def main():
 	infile = open(file_name, 'r')
 	urls = []
 
-	for line in infile:
+	for line in infile: # Prefix with http:// so urllib knows what protocol 
 		urls.append("http://" + line)
 
 	# Time multithreaded GETs
