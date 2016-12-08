@@ -3,6 +3,7 @@ import threading
 import time
 
 # Spins off a thread for every URL passed in and performs the requests in parallel
+# Returns a python dictionary object where the key is the URL and the value is the GET response
 def get_urls(urls):
 	responses = {}
 	threads = []
@@ -30,6 +31,8 @@ def get_url(url, responses):
 	except: # If HTTP error encountered, fill None into response
 		responses[url] = None
 
+# Method that iteratively runs through all the URLs in sequence
+# Returns a python dictionary object where the key is the URL and the value is the GET response
 def get_urls_iteratively(urls):
 	responses = {}
 
