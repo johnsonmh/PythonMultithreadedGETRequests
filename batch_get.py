@@ -60,14 +60,14 @@ def main():
 	responses = get_urls(urls)
 	finish_time = time.time()
 
-	print("Multithreaded URL GETs took %f seconds, to get %i urls." % (finish_time - start_time, len(urls)))
+	print("Multithreaded URL GETs took %f seconds, to get %i web pages." % (finish_time - start_time, len(urls)))
 
 	# Time Iterative GETs
 	start_time = time.time()
 	responses = get_urls_iteratively(urls)
 	finish_time = time.time()
 
-	print("Iterative URL GETs took %f seconds, to get %i urls." % (finish_time - start_time, len(urls)))
+	print("Iterative URL GETs took %f seconds, to get %i web pages." % (finish_time - start_time, len(urls)))
 
 # If called from the command line, call main method
 if __name__ == '__main__':
