@@ -15,7 +15,9 @@ Make sure you have python 3 installed, and run the command:
 python3 batch_get.py 
 ```
 
-It will prompt you for a filename for testing URLs. To use the provided text file, enter: ``` urls.txt ```.
+It will prompt you for a filename for testing URLs.
+
+To use the provided text file, enter: ``` urls.txt ```.
 
 ## Example usage:
 Let's say you have a list of URLs and want your program to go to the web and retrieve those URLs.
