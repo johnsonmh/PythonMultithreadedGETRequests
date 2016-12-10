@@ -3,6 +3,15 @@
 
 This Python library allows python programmers to perform many HTTP GET requests on different URLs, in parallel. 
 
+## Requirements
+This program requires Python 3 to be installed.
+
+## Testing it
+To test this program from the command line, download it and cd into the directory. 
+Make sure you have python 3 installed, and run the command:``` python3 batch_get.py ```
+
+It will prompt you for a filename for testing URLs. To use the provided text file, enter ``` urls.txt ```.
+
 ## Example usage:
 Let's say you have a list of URLs and want your program to go to the web and retrieve those URLs.
 
