@@ -1,4 +1,4 @@
-import urllib.request as urllib
+import urllib
 import threading
 import time
 
